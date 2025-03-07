@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *  제목 : 키오스크 Level 1 구현.
- *  날짜 : 2025/03/074
+ *  날짜 : 2025/03/07
  *  작성자 : 박민혁
  *  개요 : 코딩스파르타 Spring 과정 3주차 LEVEL 1 과제 ( LEVEL 1/5 )
  *
