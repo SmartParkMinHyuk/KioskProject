@@ -29,20 +29,6 @@ public class Main {
          */
         while(true) {
 
-            System.out.print("키오스크에 오신 것을 환영합니다. 키오스크를 실행시키려면 1번을 눌러주세요 : ");
-
-            int option = sc.nextInt();
-
-            /**
-             * 조건문 if
-             */
-            if(option == 1){
-                System.out.print("키오스크를 실행합니다. ");
-            } else {
-                System.out.println("다시 입력주세요.");
-                continue;
-            };
-
             System.out.println("[ SHAKESHACK MENU ]");
             System.out.println(RED + "1."+ PURPLE + " ShackBurger"+ RESET + "   | "+ RED + "W 6.9"+ RESET +" | 토마토, 양상추, 쉑소스가 토핑된 치즈버거");
             System.out.println(RED + "2."+ PURPLE + " SmokeShack"+ RESET + "    | "+ RED + "W 8.9"+ RESET +" | 베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거");
@@ -50,7 +36,7 @@ public class Main {
             System.out.println(RED + "4."+ PURPLE + " Hamburger"+ RESET + "     | "+ RED + "W 5.4"+ RESET +" | 비프패티를 기반으로 야채가 들어간 기본버거");
             System.out.println(RED + "0."+ RESET +" exit          | exit");
             System.out.print("원하시는 번호를 입력해주세요 : ");
-            option = sc.nextInt();
+            int option = sc.nextInt();
 
             /**
              * 조건문 switch
