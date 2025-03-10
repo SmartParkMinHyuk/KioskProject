@@ -10,7 +10,6 @@ import java.util.Scanner;
  * 날짜 : 2025/03/07
  * 작성자 : 박민혁
  * 개요 : 코딩스파르타 Spring 과정 3주차 LEVEL 2 과제 ( LEVEL 2/5 )
- *
  *  - 요구사항이 가지는 의도
  *      객체 지향 개념을 학습하고, 데이터를 구조적으로 관리하며 프로그램을 설계하는 방법을 익힙니다.
  *      햄버거 메뉴를 MenuItem 클래스와 List를 통해 관리합니다.
@@ -71,7 +70,7 @@ public class App {
                     // 메뉴판 호출
                     printMessage(items);
                         System.out.println();
-                    //
+
                     if (option > 0 && option <= items.size()) {
                         MenuItem selectedItem = items.get(option - 1);
                         System.out.print(BOLD + "선택한 메뉴 : " + PURPLE + selectedItem.name + RESET);
