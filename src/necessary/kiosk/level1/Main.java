@@ -7,7 +7,6 @@ import java.util.Scanner;
  *  날짜 : 2025/03/07
  *  작성자 : 박민혁
  *  개요 : 코딩스파르타 Spring 과정 3주차 LEVEL 1 과제 ( LEVEL 1/5 )
- *
  *  - 요구사항이 가지는 의도
  *      입력 처리와 간단한 흐름 제어를 복습합니다. (프로그래밍 검증)
  *      Scanner 활용법, 조건문, 반복문을 재확인하며 입력 데이터를 처리하는 방법 강화
@@ -19,14 +18,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /**
-         * Scanner
-         */
+        // Scanner
         Scanner sc = new Scanner(System.in);
 
-        /**
-         * 반복문 while
-         */
+        // 반복문
         while(true) {
 
             System.out.println("[ SHAKESHACK MENU ]");
@@ -38,9 +33,7 @@ public class Main {
             System.out.print("원하시는 번호를 입력해주세요 : ");
             int option = sc.nextInt();
 
-            /**
-             * 조건문 switch
-             */
+            // 조건문
             switch (option) {
                 case 0:
                     System.out.println("프로그램을 종료합니다.");
