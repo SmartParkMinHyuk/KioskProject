@@ -10,7 +10,6 @@ public class Kiosk {
         this.Menu = Menu;
     }
 
-    public static final String BOLD = "\u001B[1m"; // 굵게
     public static final String RESET = "\u001B[0m";
     public static final String RED = "\u001B[31m";
     public static final String PURPLE = "\u001B[35m";
@@ -76,7 +75,7 @@ public class Kiosk {
         }
     }
 
-    public void selectMenu(int option1) throws Exception {
+    public void selectMenu(int option1) {
         if (option1 < 0 || option1 > Menu.size()) {
             throw new IndexOutOfBoundsException("잘못된 메뉴 번호입니다. 다시 입력하세요.");
         } else {
