@@ -5,6 +5,7 @@ import java.util.List;
 public class Menu {
 
     // console 색 데이터
+    public static final String BOLD = "\u001B[1m"; // 굵게
     public static final String RESET = "\u001B[0m";
     public static final String RED = "\u001B[31m";
     public static final String PURPLE = "\u001B[35m";
