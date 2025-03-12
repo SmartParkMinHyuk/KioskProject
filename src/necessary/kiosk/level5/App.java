@@ -29,7 +29,7 @@ public class App {
         drinks.add(new MenuItem("Sprite",4.5,"suger, water, suger"));
         drinks.add(new MenuItem("Beer",9.0,"suger, water, meal"));
         drinks.add(new MenuItem("Wine",5.4,"grape, wawter, achol"));
-        Menu drink = new Menu("drinks", drinks);
+        Menu drink = new Menu("Drinks", drinks);
 
         // 디저트 데이터
         List<MenuItem> Desserts = new ArrayList<>();
@@ -39,7 +39,7 @@ public class App {
         Desserts.add(new MenuItem("Water",5.4,"경기도 광주 처맛골에서 떠온 미네랄 듬뿍 물"));
         Menu Dessert = new Menu("Desserts", Desserts);
 
-        // kiosksr 객체 생성
+        // kiosk 객체 생성
         List<Menu> kiosks = new ArrayList<>();
         kiosks.add(burger);
         kiosks.add(drink);
