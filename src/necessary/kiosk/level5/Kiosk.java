@@ -11,6 +11,8 @@ public class Kiosk {
     public static final String RED = "\u001B[31m";
     public static final String PURPLE = "\u001B[35m";
 
+    Scanner sc = new Scanner(System.in);
+
     private final List<Menu> mainMenuList;
 
     public Kiosk(List<Menu> mainMenuList) {
@@ -62,7 +64,7 @@ public class Kiosk {
     }
 
     public void printMenu() {
-        System.out.println(BOLD + "[ GIMBABSARANG MENU ]" + RESET);
+        System.out.println(BOLD + "[ NEW BURGERS MENU ]" + RESET);
         int index = 1;
         for (Menu menu : mainMenuList) {
             System.out.println(
@@ -73,7 +75,7 @@ public class Kiosk {
     }
 
     public int inputOption() {
-        Scanner sc = new Scanner(System.in);
+
         try {
             System.out.print("원하시는 번호를 입력해주세요 : ");
             return sc.nextInt();
